@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationDir": "dist",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "isolatedModules": true,
+    "lib": ["es2022"],
+    "moduleResolution": "node",
+    "noEmitOnError": false,
+    "outDir": "./dist",
+    "pretty": true,
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/consts": ["./src/constants.ts"],
+      "@/types": ["./src/types.ts"],
+      "@/utils": ["./src/utils.ts"]
+    },
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es2015"
+  },
+  "exclude": ["./dist", "./node_modules", "./package-lock.json"],
+  "include": ["./src"]
+}
