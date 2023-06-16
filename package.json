@@ -95,6 +95,9 @@
     ]
   },
   "packageManager": "pnpm@7.12.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "prettier": {
     "arrowParens": "always",
     "printWidth": 80,
@@ -109,6 +112,6 @@
     "test": "cross-env NODE_ENV=test ts-mocha -p tsconfig.test.json --extensions ts --file src/__tests__/setup.ts --watch --watch-files \"src/**/*\" \"src/**/*.test.*\" --paths"
   },
   "types": "./dist/index.d.ts",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "workspaces": []
 }
