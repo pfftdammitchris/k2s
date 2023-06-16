@@ -1,5 +1,7 @@
 # k2s
 
+Keep2share API client. Supports NodeJS and the browser.
+
 > Full documentation coming soon
 
 ## Installation
